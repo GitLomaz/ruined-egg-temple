@@ -1,0 +1,49 @@
+@font-face {
+  font-family: neue;
+  src: url("../assets/fonts/neue.otf");
+}
+
+body {
+  margin: 0px;
+  font-family: neue;
+  user-select: none;
+  overflow: hidden;
+}
+
+div {
+  position: absolute;
+  left: 450px;
+  text-align: center;
+  width: 200px;
+  font-size: 20px;
+}
+
+#timer {
+  top: 10px;
+}
+
+#eggCounter {
+  top: 30px;
+}
+
+#warning {
+  top: 180px;
+  color: red;
+}
+
+#credits {
+  top: 140px;
+  width: 600px;
+  left: 250px;
+  color: rgb(255, 255, 255);
+}
+
+#discord {
+  background-image: url("../assets/images/discord.png");
+  height: 43px;
+  width: 60px;
+  position: fixed;
+  top: 537px;
+  left: 1033px;
+  background-size: contain;
+}
