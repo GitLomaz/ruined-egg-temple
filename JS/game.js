@@ -19,10 +19,10 @@ let start;
 let timer;
 let exitPortal;
 let times = {
-  1: 83544,
+  1: 0,
   2: 0,
-  3: 38812,
-  4: 12331,
+  3: 0,
+  4: 0,
   5: 0,
   6: 0
 }
