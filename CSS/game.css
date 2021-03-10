@@ -18,6 +18,13 @@ div {
   font-size: 20px;
 }
 
+#logo {
+  width: 200px;
+  height: 80px;
+  top: 50px;
+  background-image: url("../assets/images/logo.png");
+}
+
 #timer {
   top: 10px;
 }

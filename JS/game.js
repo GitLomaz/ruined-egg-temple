@@ -352,6 +352,7 @@ var titleScene = new Phaser.Class({
       startBtn.setAlpha(.6);
     });
     startBtn.on('pointerdown', function(pointer) {
+      $('#logo').hide()
       if(!zoneChange) {
         zoneChange = true
         that.cameras.main.fadeOut(200);
